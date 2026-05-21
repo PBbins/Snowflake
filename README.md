@@ -1,4 +1,4 @@
-# Snowflake
+# Snowflake-pb
 
 Welcome to the Snowflake project! This repository contains tools and utilities for working with Snowflake data warehousing platform.
 
@@ -26,8 +26,8 @@ Snowflake is a cloud-based data warehousing solution that provides scalable, sec
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/PBbins/Snowflake.git
-cd Snowflake
+git clone https://github.com/PBbins/Snowflake-pb.git
+cd Snowflake-pb
 ```
 
 2. Install dependencies:
