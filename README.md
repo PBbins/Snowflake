@@ -1,4 +1,4 @@
-# Snowflake
+# Snowflake-pb
 
 Welcome to the Snowflake project! This repository contains tools and utilities for working with Snowflake data warehousing platform.
 
@@ -26,8 +26,8 @@ Snowflake is a cloud-based data warehousing solution that provides scalable, sec
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/PBbins/Snowflake.git
-cd Snowflake
+git clone https://github.com/PBbins/Snowflake-pb.git
+cd Snowflake-pb
 ```
 
 2. Install dependencies:
@@ -44,18 +44,28 @@ cp config.example.yml config.yml
 ## Project Structure
 
 ```
-Snowflake/
+Snowflake-pb/
+├── LICENSE
 ├── README.md
 ├── requirements.txt
 ├── config.example.yml
 ├── src/
 │   ├── __init__.py
-│   ├── models/          # Data models and schema definitions
-│   ├── utils/           # Utility functions
-│   └── connectors/      # Connection management
-├── tests/               # Unit and integration tests
-├── docs/                # Documentation
-└── examples/            # Example scripts and usage
+│   ├── models/               # Data models and schema definitions
+│   ├── connectors/           # Snowflake connection and client code
+│   ├── pipelines/            # ETL/ELT pipeline orchestration
+│   ├── utils/                # Shared utility functions
+│   └── services/             # Business logic and orchestration services
+├── tests/                    # Unit and integration tests
+│   ├── __init__.py
+│   └── test_sample.py
+├── docs/                     # Documentation and design notes
+│   └── .gitkeep
+├── examples/                 # Example scripts and usage examples
+│   └── .gitkeep
+└── sql/                      # SQL scripts and definitions
+    ├── dim_tab.sql
+    └── other_scripts.sql
 ```
 
 ## Usage
